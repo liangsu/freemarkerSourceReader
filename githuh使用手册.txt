@@ -1,0 +1,22 @@
+github使用手册 http://www.runoob.com/w3cnote/git-guide.html
+1.下载代码：
+我要下载的代码地址为：git://git.springsource.org/spring-mobile/samples.git
+下载代码使用 git clone  git://git.springsource.org/spring-mobile/samples.git 回车即可
+
+
+
+**************************
+git 提交：
+1.执行如下命令以创建一个本地仓库的克隆版本：
+git clone /path/to/repository 
+git clone username@host:/path/to/repository
+
+2.选择要提交的文件：
+git add <filename>
+git add *
+
+3.提交到本地分支：
+git commit -m "代码提交信息"
+
+4.将本地分支提交到远程仓库：
+git push origin master
